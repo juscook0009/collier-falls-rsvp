@@ -682,6 +682,40 @@ export default function App() {
               </div>
             </div>
             <div style={{ marginTop:28, fontSize:13, color:"rgba(232,224,208,0.2)" }}>{totalConfirmed} total guests confirmed</div>
+
+            {/* ── Add to Calendar ── */}
+            <div style={{ marginTop:32 }}>
+              <div style={{ fontSize:11, letterSpacing:"0.2em", textTransform:"uppercase", color:"rgba(212,175,55,0.5)", marginBottom:14, fontFamily:"'DM Sans', sans-serif" }}>Add to Calendar</div>
+              <div style={{ display:"flex", gap:10, justifyContent:"center", flexWrap:"wrap" }}>
+                <a
+                  href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Collier+Falls+Wine+Club+Release+Party&dates=20260418T130000/20260418T160000&details=1st+Annual+Wine+Club+Release+Party.+Taco+truck+onsite,+new+release+wines+and+old+favorites.+Cold+plunge+available!&location=Collier+Falls+Ranch"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  style={{
+                    display:"inline-flex", alignItems:"center", gap:8,
+                    background:"rgba(255,255,255,0.05)", border:"1px solid rgba(255,255,255,0.12)",
+                    borderRadius:8, padding:"11px 20px", fontSize:13, fontWeight:500,
+                    fontFamily:"'DM Sans', sans-serif", color:"#e8e0d0", textDecoration:"none",
+                    transition:"all 0.2s",
+                  }}
+                >
+                  <span>📅</span> Google Calendar
+                </a>
+                <a
+                  href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20260418T130000%0ADTEND:20260418T160000%0ASUMMARY:Collier+Falls+Wine+Club+Release+Party%0ADESCRIPTION:1st+Annual+Wine+Club+Release+Party.+Taco+truck+onsite%2C+new+release+wines+and+old+favorites.+Cold+plunge+available!%0ALOCATION:Collier+Falls+Ranch%0AEND:VEVENT%0AEND:VCALENDAR"
+                  download="collier-falls-wine-party.ics"
+                  style={{
+                    display:"inline-flex", alignItems:"center", gap:8,
+                    background:"rgba(255,255,255,0.05)", border:"1px solid rgba(255,255,255,0.12)",
+                    borderRadius:8, padding:"11px 20px", fontSize:13, fontWeight:500,
+                    fontFamily:"'DM Sans', sans-serif", color:"#e8e0d0", textDecoration:"none",
+                    transition:"all 0.2s",
+                  }}
+                >
+                  <span>🍎</span> Apple / iCal
+                </a>
+              </div>
+            </div>
           </div>
         )}
       </div>
