@@ -688,7 +688,7 @@ export default function App() {
               <div style={{ fontSize:11, letterSpacing:"0.2em", textTransform:"uppercase", color:"rgba(212,175,55,0.5)", marginBottom:14, fontFamily:"'DM Sans', sans-serif" }}>Add to Calendar</div>
               <div style={{ display:"flex", gap:10, justifyContent:"center", flexWrap:"wrap" }}>
                 <a
-                  href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Collier+Falls+Wine+Club+Release+Party&dates=20260418T130000/20260418T160000&details=1st+Annual+Wine+Club+Release+Party.+Taco+truck+onsite,+new+release+wines+and+old+favorites.+Cold+plunge+available!&location=Collier+Falls+Ranch"
+                  href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Collier+Falls+Wine+Club+Release+Party&dates=20260418T130000/20260418T160000&details=1st+Annual+Wine+Club+Release+Party.+Taco+truck+onsite,+new+release+wines+and+old+favorites.+Cold+plunge+available!%0A%0ADirections:+Go+through+the+automatic+gate+at+the+end+of+W+Dry+Creek.+Sharp+left+and+loop+around+the+neighbors+house.+Veer+left+at+the+Y+(signs+for+9931).&location=9931+W+Dry+Creek+Rd,+Healdsburg+CA+95448"
                   target="_blank"
                   rel="noopener noreferrer"
                   style={{
@@ -702,7 +702,7 @@ export default function App() {
                   <span>📅</span> Google Calendar
                 </a>
                 <a
-                  href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20260418T130000%0ADTEND:20260418T160000%0ASUMMARY:Collier+Falls+Wine+Club+Release+Party%0ADESCRIPTION:1st+Annual+Wine+Club+Release+Party.+Taco+truck+onsite%2C+new+release+wines+and+old+favorites.+Cold+plunge+available!%0ALOCATION:Collier+Falls+Ranch%0AEND:VEVENT%0AEND:VCALENDAR"
+                  href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART:20260418T130000%0ADTEND:20260418T160000%0ASUMMARY:Collier+Falls+Wine+Club+Release+Party%0ADESCRIPTION:1st+Annual+Wine+Club+Release+Party.+Taco+truck+onsite%2C+new+release+wines+and+old+favorites.+Cold+plunge+available!%0A%0ADirections:%0AGo+through+the+automatic+gate+at+the+end+of+W+Dry+Creek.%0ASharp+left+and+loop+around+the+neighbors+house.%0AVeer+left+at+the+Y+(signs+for+9931).%0ALOCATION:9931+W+Dry+Creek+Rd%2C+Healdsburg+CA+95448%0AEND:VEVENT%0AEND:VCALENDAR"
                   download="collier-falls-wine-party.ics"
                   style={{
                     display:"inline-flex", alignItems:"center", gap:8,
